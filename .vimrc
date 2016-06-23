@@ -18,3 +18,5 @@ set shiftwidth=4
 set number
 
 set hlsearch
+nnoremap / /\v
+
