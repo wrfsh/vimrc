@@ -19,7 +19,6 @@ set shiftwidth=4
 
 set number
 
-# Search: highlight, smartcase, incremental, remap / to /\v
 set hlsearch
 set smartcase
 set incsearch
