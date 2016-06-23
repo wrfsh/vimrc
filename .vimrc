@@ -18,5 +18,5 @@ set shiftwidth=4
 set number
 
 set hlsearch
+set smartcase
 nnoremap / /\v
-
