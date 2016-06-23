@@ -1,6 +1,8 @@
 execute pathogen#infect()
-
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Reduce esc delay to 10ms
+set timeoutlen=1000 ttimeoutlen=10
 
 syntax enable
 filetype plugin indent on
@@ -17,6 +19,8 @@ set shiftwidth=4
 
 set number
 
+# Search: highlight, smartcase, incremental, remap / to /\v
 set hlsearch
 set smartcase
+set incsearch
 nnoremap / /\v
