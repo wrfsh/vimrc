@@ -23,3 +23,4 @@ set hlsearch
 set smartcase
 set incsearch
 nnoremap / /\v
+nmap <silent> <BS> :nohlsearch<CR>
