@@ -7,8 +7,11 @@ set timeoutlen=1000 ttimeoutlen=10
 syntax enable
 filetype plugin indent on
 
+set t_Co=256
 set background=dark
-colorscheme solarized
+let g:solarized_contrast="low"
+let g:solarized_visibility="low"
+colorscheme solarized2
 
 set laststatus=2
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%y%=%-16(\ %l,%c\ %)%P
