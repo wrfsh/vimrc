@@ -27,3 +27,6 @@ set smartcase
 set incsearch
 nnoremap / /\v
 nmap <silent> <BS> :nohlsearch<CR>
+
+highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
+match OverLength /\%81v.\+/
