@@ -28,7 +28,5 @@ curl -LSso $VIM_PREFIX/.vimrc https://raw.githubusercontent.com/warfish/vimrc/ma
 git clone https://github.com/warfish/vim-colors-solarized.git $PLUGIN_DIR/vim-colors-solarized
 ## fugitive
 git clone https://github.com/tpope/vim-fugitive.git $PLUGIN_DIR/vim-fugitive
-## ctrlp
-git clone https://github.com/ctrlpvim/ctrlp.vim.git $PLUGIN_DIR/ctrlp.vim
 ## gitgutter
 git clone git://github.com/airblade/vim-gitgutter.git
