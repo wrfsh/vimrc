@@ -29,4 +29,4 @@ git clone https://github.com/warfish/vim-colors-solarized.git $PLUGIN_DIR/vim-co
 ## fugitive
 git clone https://github.com/tpope/vim-fugitive.git $PLUGIN_DIR/vim-fugitive
 ## gitgutter
-git clone git://github.com/airblade/vim-gitgutter.git
+git clone https://github.com/airblade/vim-gitgutter.git $PLUGIN_DIR/vim-gitgutter
