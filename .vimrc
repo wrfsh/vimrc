@@ -7,6 +7,9 @@ set timeoutlen=1000 ttimeoutlen=10
 syntax enable
 filetype plugin indent on
 
+let g:gitgutter_use_colorscheme=1
+autocmd ColorScheme * highlight! link SignColumn LineNr  
+
 set t_Co=256
 set background=dark
 let g:solarized_contrast="low"
